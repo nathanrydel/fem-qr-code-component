@@ -14,13 +14,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .container {
   margin: 10rem;
   background-color: #fff;
   border-radius: 1.25rem;
-  width: 20rem;
+  width: 22rem;
+  margin: 0;
 }
 
 .card img {
@@ -44,12 +47,17 @@ body {
 }
 
 .card-content {
-  width: 90%;
+  width: 85%;
   color: #68778D;
   line-height: 1.4;
   margin: 1rem auto;
   padding: 0 0 1.5rem 0;
   text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0.5rem;
 }
 
 .attribution {
